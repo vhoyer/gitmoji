@@ -54,6 +54,7 @@
 }
 
 .cardHeader {
+  background-color: var(--emojiColor);
   align-self: flex-start;
   padding-top: 2em;
   padding-bottom: 0.85em;
@@ -90,7 +91,11 @@
   border-radius: 4px;
   transition: background-color 0.3s ease-out;
   cursor: pointer;
-  padding: .1rem .6rem;
+  padding: 0.1rem 0.6rem;
+}
+
+.gitmojiCode:hover {
+  background-color: var(--emojiColor);
 }
 
 .gitmojiInfo {
