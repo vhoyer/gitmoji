@@ -88,8 +88,9 @@
 .gitmojiCode {
   position: relative;
   border-radius: 4px;
-  transition-duration: 0.3s;
+  transition: background-color 0.3s ease-out;
   cursor: pointer;
+  padding: .1rem .6rem;
 }
 
 .gitmojiInfo {
